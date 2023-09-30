@@ -27,12 +27,6 @@ function toggleContrast() {
   body.classList.toggle("alto-contraste");
 }
 
-// Função para destacar a seção "Operável"
-function highlightOperableSection() {
-  const operavelSection = document.getElementById("operavel");
-  operavelSection.classList.toggle("destacar-operavel");
-}
-
 function toggleContrast() {
   const body = document.body;
   body.classList.toggle("alto-contraste");
@@ -77,8 +71,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const decreaseTextSizeButton = document.getElementById("decreaseTextSize");
   const toggleContrastButton = document.getElementById("botaoContraste");
 
-  const botaoOperavel = document.getElementById("botaoOperavel");
-
   if (increaseTextSizeButton) {
     increaseTextSizeButton.addEventListener("click", increaseTextSize);
   }
@@ -90,25 +82,4 @@ document.addEventListener("DOMContentLoaded", () => {
   if (toggleContrastButton) {
     toggleContrastButton.addEventListener("click", toggleContrast);
   }
-
-  if (botaoOperavel) {
-    botaoOperavel.addEventListener("click", highlightOperableSection);
-  }
-
-  // Obtenha o URL atual da página
-  const currentUrl = window.location.href;
-
-  // Obtenha todos os elementos <a> dentro de <nav>
-  const navLinks = document.querySelectorAll("nav a");
-
-  // Itere sobre os links e verifique se o URL atual corresponde ao URL do link
-  navLinks.forEach((link) => {
-    const linkUrl = link.href;
-
-    // Verifique se o URL atual contém o URL do link
-    if (currentUrl.includes(linkUrl)) {
-      // Adicione a classe "currentPage" ao elemento <li> pai do link
-      link.parentElement.classList.add("currentPage");
-    }
-  });
 });

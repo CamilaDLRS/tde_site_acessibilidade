@@ -80,96 +80,47 @@ body.alto-contraste a {
 /* Estilos para o footer */
 footer {
   text-align: center;
-  background-color: #333;
+  background-color: #333333;
   color: #fff;
   padding: 10px 0;
 }
 
 /* Estilo para destacar a seção "Operável" */
 .destacar-operavel {
-  background-color: #ffc107; /* Amarelo */
-  border: 2px solid #ff9800; /* Laranja */
+  color: #ffffff;
+  background-color: #515151;
   padding: 10px;
+  border-radius: 20px;
 }
 
 /* Estilo base para todos os botões */
 button {
-  background-color: #007BFF;
-  color: #fff;
+  background-color: #ffc107;
+  color: #000;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 18px;
   border: none;
   cursor: pointer;
-  border-radius: 4px; /* Adicionando bordas arredondadas */
+  border-radius: 4px;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: azure;
 }
 
-/* Estilo para o botão de contraste */
-#botaoContraste {
-  background-color: #ffc107;
-  color: #000; /* Alterando a cor do texto para melhor contraste */
-}
-
-#botaoContraste:hover {
-  background-color: #ffaa00;
-}
-
-/* Estilo para o botão de ajustar tamanho do texto */
-.text-size-buttons button {
-  margin-right: 10px;
-}
 
 /* Estilo para o botão de destacar operável */
 #botaoOperavel {
-  background-color: #28a745;
+  background-color:  #0074d9;
   color: #fff;
 }
 
 #botaoOperavel:hover {
-  background-color: #218838;
+  background-color:#0088fe;
 }
 
-
-/* Estilo para a div de controles de acessibilidade */
-.accessibility-controls {
-  margin-top: 10px; /* Espaço superior para separar dos links de navegação */
-}
-
-/* Estilo para os botões de acessibilidade */
-.accessibility-controls button {
-  padding: 5px 10px;
-  margin-right: 10px; /* Espaçamento entre os botões */
-  background-color: #007bff; /* Cor de fundo do botão */
-  color: #fff; /* Cor do texto do botão */
-  border: none;
-  border-radius: 5px; /* Cantos arredondados */
-  cursor: pointer;
-  transition: background-color 0.3s ease; /* Efeito de transição suave na cor de fundo */
-
-  /* Estilizar o foco (borda ao receber foco) */
-  outline: none;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.7); /* Sombra suave ao receber foco */
-}
-
-/* Estilo para os botões de acessibilidade quando hover (passar o mouse) */
-.accessibility-controls button:hover {
-  background-color: #0056b3; /* Cor de fundo mais escura ao passar o mouse */
-}
-
-
-/* Estilo para destacar o link da página atual */
-.currentPage {
-  font-weight: bold; /* Pode alterar a propriedade para o destaque desejado, como negrito */
-  color: #000000; /* Pode definir uma cor específica para o destaque */
-  /* Outros estilos de destaque, como cor de fundo ou tamanho de fonte */
-}
-
-/* Estilos para o parágrafo de texto pequeno */
 .small-text {
-  font-size: 10px; /* Tamanho de fonte menor */
-  text-align: center; /* Alinhamento centralizado */
-  margin-top: 5px; /* Espaçamento superior */
+  font-size: 10px;
+  text-align: center;
+  margin-top: 5px;
 }
