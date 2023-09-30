@@ -1,0 +1,175 @@
+/* Reset de Estilos Padrão */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0074d9;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Estilos para o modo de alto contraste */
+body.alto-contraste {
+  background-color: #fff;
+  color: #000;
+}
+
+body.alto-contraste header {
+  background-color: #000;
+  color: #fff;
+}
+
+body.alto-contraste nav ul li a {
+  color: #fff;
+}
+
+/* Estilos para links no modo de alto contraste */
+body.alto-contraste a {
+  color: #0074d9;
+}
+
+/* Estilos para o footer */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Estilo para destacar a seção "Operável" */
+.destacar-operavel {
+  background-color: #ffc107; /* Amarelo */
+  border: 2px solid #ff9800; /* Laranja */
+  padding: 10px;
+}
+
+/* Estilo base para todos os botões */
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px; /* Adicionando bordas arredondadas */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para o botão de contraste */
+#botaoContraste {
+  background-color: #ffc107;
+  color: #000; /* Alterando a cor do texto para melhor contraste */
+}
+
+#botaoContraste:hover {
+  background-color: #ffaa00;
+}
+
+/* Estilo para o botão de ajustar tamanho do texto */
+.text-size-buttons button {
+  margin-right: 10px;
+}
+
+/* Estilo para o botão de destacar operável */
+#botaoOperavel {
+  background-color: #28a745;
+  color: #fff;
+}
+
+#botaoOperavel:hover {
+  background-color: #218838;
+}
+
+
+/* Estilo para a div de controles de acessibilidade */
+.accessibility-controls {
+  margin-top: 10px; /* Espaço superior para separar dos links de navegação */
+}
+
+/* Estilo para os botões de acessibilidade */
+.accessibility-controls button {
+  padding: 5px 10px;
+  margin-right: 10px; /* Espaçamento entre os botões */
+  background-color: #007bff; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  border: none;
+  border-radius: 5px; /* Cantos arredondados */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Efeito de transição suave na cor de fundo */
+
+  /* Estilizar o foco (borda ao receber foco) */
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.7); /* Sombra suave ao receber foco */
+}
+
+/* Estilo para os botões de acessibilidade quando hover (passar o mouse) */
+.accessibility-controls button:hover {
+  background-color: #0056b3; /* Cor de fundo mais escura ao passar o mouse */
+}
+
+
+/* Estilo para destacar o link da página atual */
+.currentPage {
+  font-weight: bold; /* Pode alterar a propriedade para o destaque desejado, como negrito */
+  color: #000000; /* Pode definir uma cor específica para o destaque */
+  /* Outros estilos de destaque, como cor de fundo ou tamanho de fonte */
+}
+
+/* Estilos para o parágrafo de texto pequeno */
+.small-text {
+  font-size: 10px; /* Tamanho de fonte menor */
+  text-align: center; /* Alinhamento centralizado */
+  margin-top: 5px; /* Espaçamento superior */
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts.js"></script>
+  <title>Acessibilidade na Web</title>
+</head>
+
+<body>
+  <header>
+    <h1>Bem-vindo ao Site de Acessibilidade na Web</h1>
+    <br />
+    <nav>
+      <ul>
+        <li><a style="color: #ffaa00;" href="index.html">Página Inicial</a></li>
+        <li><a href="introducao.html">Introdução</a></li>
+        <li><a href="principios.html">Princípios</a></li>
+        <li><a href="implementacao.html">Técnicas de Implementação</a></li>
+        <li><a href="ferramentas.html">Ferramentas de Teste</a></li>
+        <li><a href="estudos-de-caso.html">Estudos de Caso</a></li>
+      </ul>
+    </nav>
+    <br />
+    <button id="increaseTextSize">Aumentar</button>
+    <button id="decreaseTextSize">Diminuir</button>
+    <button id="botaoContraste" aria-label="Alternar Contraste">Alternar Contraste</button>
+  </header>
+  <main>
+    <!-- Exemplo interativo de botão para demonstrar o princípio "Operável" -->
+    <section id="operavel">
+      <h2>Demonstração de Operabilidade</h2>
+      <p>Clique no botão abaixo para destacar o princípio "Operável".</p>
+      <button id="botaoOperavel">Destacar Operável</button>
+    </section>
+    <!-- Elementos de Multimídia (a serem preenchidos posteriormente) -->
+    <section>
+      <h2>Multimídia</h2>
+      <figure>
+        <!-- Imagem (adicionar src e alt) -->
+        <img src="" alt="" aria-describedby="descricaoImagem">
+        <figcaption id="descricaoImagem">Descrição da imagem.</figcaption>
+      </figure>
+      <audio controls>
+        <!-- Áudio (adicionar src) -->
+        <source src="" type="audio/mpeg">
+        Seu navegador não suporta o elemento de áudio.
+      </audio>
+      <video controls>
+        <!-- Vídeo (adicionar src) -->
+        <source src="" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+      </video>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Acessibilidade na Web. Todos os direitos reservados a Camila Delarosa.</p>
+    <p class="small-text">E seu amigo Chat GPT.</p>
+  </footer>
+  
+</body>
+
+</html>

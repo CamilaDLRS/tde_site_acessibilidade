@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <title>Técnicas de Implementação de Acessibilidade</title>
+</head>
+
+<body>
+    <header>
+        <h1>Acessibilidade na Web</h1>
+        <br />
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="introducao.html">Introdução</a></li>
+                <li><a href="principios.html">Princípios</a></li>
+                <li><a style="color: #ffaa00;" href="implementacao.html">Técnicas de Implementação</a></li>
+                <li><a href="ferramentas.html">Ferramentas de Teste</a></li>
+                <li><a href="estudos-de-caso.html">Estudos de Caso</a></li>
+            </ul>
+        </nav>
+        <br />
+        <button id="increaseTextSize">Aumentar</button>
+        <button id="decreaseTextSize">Diminuir</button>
+        <button id="botaoContraste" aria-label="Alternar Contraste">Alternar Contraste</button>
+    </header>
+
+    <main>
+        <section>
+            <h2>Técnicas de Implementação de Acessibilidade</h2>
+            <p>Implementar a acessibilidade na web requer o uso de técnicas específicas para garantir que seu site seja
+                utilizável por todos os usuários. Aqui estão algumas técnicas essenciais:</p>
+            <ul>
+                <li><strong>Uso de Alt Text:</strong> Sempre forneça texto alternativo (alt text) para imagens,
+                    permitindo que leitores de tela descrevam as imagens para os usuários com deficiência visual.</li>
+                <li><strong>Marcação Semântica:</strong> Utilize HTML semântico para estruturar corretamente o conteúdo,
+                    como cabeçalhos (h1, h2, etc.) e listas.</li>
+                <li><strong>Contraste de Cores:</strong> Garanta um bom contraste de cores entre o texto e o fundo para
+                    melhorar a legibilidade.</li>
+                <li><strong>Teclado Amigável:</strong> Certifique-se de que todas as funcionalidades do site possam ser
+                    acessadas e navegadas usando apenas o teclado.</li>
+                <li><strong>Legendas e Transcrições:</strong> Forneça legendas para vídeos e transcrições para conteúdo
+                    de áudio.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Teste e Validação Constantes</h2>
+            <p>É crucial testar e validar constantemente a acessibilidade do seu site. Utilize ferramentas de teste de
+                acessibilidade e peça feedback de usuários com deficiências para identificar e corrigir problemas.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Acessibilidade na Web. Todos os direitos reservados a Camila Delarosa.</p>
+        <p class="small-text">E seu amigo Chat GPT.</p>
+    </footer>
+</body>
+
+</html>
